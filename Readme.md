@@ -19,24 +19,24 @@ puts plugins contents in your octopress blog's directory
 
 .book_info{
 	display:inline-block;
-		padding:10px;
-			float:left;
-				margin:10px;
-					border:1px solid #ccc;
-						box-shadow:0px 0px 5px rgba(0,0,0,0.3);
-							height:230px;
-								.book_title{
-										width:150px;
-												font-size:0.8em;
-													}
-														.rate{
-																font-style:italic;
-																		font-size:0.9em;
-																			}
-																				img{
-																						width:150px;
-																							}
-																							}
+	padding:10px;
+	float:left;
+	margin:10px;
+	border:1px solid #ccc;
+	box-shadow:0px 0px 5px rgba(0,0,0,0.3);
+	height:230px;
+	.book_title{
+		width:150px;
+		font-size:0.8em;
+	}
+	.rate{
+		font-style:italic;
+		font-size:0.9em;
+	}
+	img{
+		width:150px;
+	}
+}																						}
 ```
 
 That's it. Enjoy!
