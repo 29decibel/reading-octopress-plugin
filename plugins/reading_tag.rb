@@ -61,9 +61,9 @@ module Jekyll
       output = super
 			# check cache
 			if @cache_infos[@book_url]
-				@title = @cache_infos[@book_url]['title']
-				@img = @cache_infos[@book_url]['img']
-				@rate = @cache_infos[@book_url]['rate']
+				@title = @cache_infos[@book_url][:title]
+				@img = @cache_infos[@book_url][:img]
+				@rate = @cache_infos[@book_url][:rate]
 			else
 				puts "begin fetch book info of #{@book_url}"
 				# get book infos 
